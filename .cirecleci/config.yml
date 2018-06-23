@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/php:7.2.6-apache-stretch-node-browsers
+    working_directory: ~/tamin
+    steps:
+      - checkout
+      - run: echo 123
+      # Install and run composer
+      # - run: sudo wget https://getcomposer.org/download/1.6.5/composer.phar -O /usr/bin/composer
+      # - run: sudo chmod +x /usr/bin/composer
+      # - run: sudo composer self-update
+      # - restore_cache:
+      #     keys:
+      #     - composer-fx-{{ checksum "composer.json" }}
+      #     - composer-fx-
+      # - run: composer update
+      # - save_cache:
+      #     key: composer-fx-{{ checksum "composer.json" }}
+      #     paths:
+      #       - ./vendor
