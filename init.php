@@ -13,7 +13,7 @@ if (! defined("__INIT__")) {
 	if (file_exists(__DIR__."/vendor/autoload.php")) {
 		
 		// Use composer autoloader if provided.
-		require __DIR__."/vendor/autoload";
+		require __DIR__."/vendor/autoload.php";
 
 	} else {
 
