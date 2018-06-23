@@ -2,3 +2,4 @@
 /vendor/
 /.phpintel/
 /config.php
+/public/webhook.php
