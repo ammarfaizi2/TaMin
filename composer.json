@@ -1,0 +1,23 @@
+{
+    "name": "teainside/tamin",
+    "description": "Tanya Mimin",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ammar Faizi",
+            "email": "ammarfaizi2@gmail.com"
+        },
+        {
+            "name": "Ngalim Siregar",
+            "email": "ngalim.siregar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "": "isolated_files/classes/"
+        }
+    },
+    "require": {}
+}
